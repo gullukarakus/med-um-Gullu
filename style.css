@@ -1,0 +1,854 @@
+/* İNDEX.HTMLSAYFASI */
+
+    @import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
+
+    body {
+        margin: 0px;
+    }
+
+    #container {
+        
+        position: absolute;
+        margin: auto;
+        width: 100vw;
+        height: 80pt;
+        top: 0;
+        bottom: 0;
+        
+        
+        filter: url(#threshold) blur(0.6px);
+    }
+
+
+    #text1, #text2 {
+        position: absolute;
+        width: 100%;
+        display: inline-block;
+        
+        font-family: 'Raleway', sans-serif;
+        font-size: 80pt;
+        
+        text-align: center;
+        
+        user-select: none;
+    }
+
+    .navbar{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    border-bottom: 1px solid black; 
+    }
+
+    .nav-btn{
+        background-color: black;
+        border-radius: 3rem;
+        border: none;
+        width:auto;
+        margin-left: 1rem;
+    }
+
+    .nav-btn a{
+        text-decoration: none;
+        color: white;
+        
+    }
+
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .navbar li {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    
+    .navbar li:first-child {
+        margin-left: 0;
+    }
+    
+
+
+    
+    .section-1{
+    background-color: rgb(255, 192, 0);
+    height: 400px;
+    }
+
+    .sec-top h1{
+    height: 100px;
+    font-size: 5rem;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    
+    .sec-bottom h3{
+    margin-top: 2rem;
+    }
+
+    .section-button{
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-top: 3rem;
+    }
+
+    .img{
+    max-width: 20px;
+    }
+    
+    .box{
+    margin: 1.5rem;
+    }
+
+    .box a{
+    color:black;
+    text-decoration: none;
+    
+    }
+
+    .top{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: white;
+    transition: background-color 0.3 ease;
+    padding: 10px ;
+
+    }
+    
+    .top a{
+    z-index: 9999;
+    white-space: nowrap;
+    color: rgba(41, 41, 41, 1);
+    transition: 300ms ease;
+    border: 1px solid rgba(242, 242, 242, 1);
+    border-radius: 100px;
+    background-color: rgba(242, 242, 242, 1);
+    position: relative;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 400;
+    padding: 8px 16px;
+    box-sizing: inherit;
+    text-decoration: none;
+    display: inline-flex;
+    margin-top: 1rem;
+
+    }
+    .top a:hover{
+    background-color:lightgray;
+    color:black;
+
+    }
+
+    .buttonmore{
+    background-color: white;
+    transition: background-color 0.3 ease;
+    padding: 10px;
+
+    }
+
+    .buttonmore:hover{
+    color: green;
+    cursor: pointer;
+    }
+
+    .bottom a{
+    color: gray;
+    text-decoration: none;
+    margin: 1.5rem;
+    }
+    .boxnumber{
+    position: relative;
+    right: 1.5rem;
+    font-size: 32px;
+    color:rgba(230, 230, 230, 1);
+    line-height: 38px;
+    letter-spacing: -0.014em;
+    font-weight: 500;
+    
+    }
+
+    .font{
+    color: rgba(117, 117, 117, 1);
+    font-size: 13px;
+    line-height: 20p;
+    font-weight: 400;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .font2 {
+    color: rgba(117, 117, 117, 1);
+    font-size: 16px;
+    overflow: hidden;
+    line-height: 20px;
+    max-height: 40px;
+    -webkit-line-clamp: 2;
+    cursor: pointer;
+    letter-spacing: inherit;
+
+    }
+
+.right{
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color:white;
+    transition: background-color 0.3 ease;
+    padding:10px;
+}
+
+.right a{
+    z-index: 9999;
+    white-space: nowrap;
+    background-color: rgba( 242,242,242,1);
+    color: rgba(41,41,41,1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 300ms ease;
+    border: 1px solid rgba(242,242,242,1);
+    position: relative;
+    border-radius: 100px;
+    padding: 8px 16px;
+    box-sizing: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-flex;
+    
+}
+
+
+.right a:hover{
+    background-color:rgba(117, 117, 117, 1);
+    color: lightgray;
+}
+
+
+.buttonmore{
+    background-color:white;
+    transition: background-color 0.3 ease;
+    padding: 10px;
+}
+
+.buttonmore:hover { 
+    color: green;
+    cursor: pointer;
+}
+
+
+.bottom a:hover{
+    color:black;
+}
+
+    
+
+
+
+
+    /* OURSTORY CSS BÖLÜMÜ */
+
+    .ourstory .section-our-1{
+    height: 200px;
+
+
+    }
+
+    .ourstory .navbar{
+    background-color: white;
+    }
+
+
+
+    .our-block{
+    background-color: black;
+    width: 100%;
+    height: .5px;
+    margin-bottom: 20px;
+    }
+
+    .baslik{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+
+    }
+
+    .hero{
+    margin-top: 100px;
+    }
+
+    .paragraph{
+    border-right: 1px solid black;
+    }
+
+    .section-our-2 .paragraph-intro{
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    line-height: 127%;
+    padding-bottom: 10px;
+    font-family: 'Soehne web buch', sans-serif;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 80% ;
+    }
+    .section-our-3{
+    width: 100%;
+    height: 750px;
+    background-color: #ffd1b9;
+    }
+    .myh2{
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    font-size: 80px;
+    }
+    .paragraph2{
+    text-align: center;
+    }
+    .block2{
+    background-color: black;
+    width: 100%;
+    height: .5px;
+    }
+    .profileimg{
+    width: 50px;
+    height: 50px;
+    }
+    .profilep{
+    font-size: 30px;
+    }
+
+    .section-our-4{
+    background-color: black;
+    }
+
+    .myh3{
+    padding: 30px;
+    color: #fff;
+    font-size: 5.3vw;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.4vw;
+    margin-top: 0px;
+    }
+    .myh4{
+    margin-top: 70px;
+    color: #fff;
+    font-size: 22px;
+    }
+    .myimg2{
+    margin-top:  50px; 
+    width: 150px;
+    height: 150px;
+    }
+    .our-block3{
+    border-radius: 70%;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: blue;
+    width: 70px;
+    height: 140px;
+    }
+    .our-block4{
+    border-radius: 70%;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: pink;
+    width: 30px;
+    height: 140px;
+    }
+    .myp2{
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    }
+    .leftborder{
+    border-left: 1px solid white;
+    }
+
+    .myh5{
+    color: #fff;
+    font-size: 72px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    font-weight: 400;
+    line-height: 100%;
+    margin-top: 70px;
+    
+    }
+
+    .myp3{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Soehne web buch', sans-serif;
+    line-height: 127%;
+    margin-top: 30px;
+    
+    }
+
+    .box9{
+    display: flex;
+    justify-content: center;
+    }
+
+    .writebutton{
+    font-size: 20px;
+    color: #34a245;
+    border-radius: 20px;
+    border: 1px solid green;
+    background-color: black;
+    width: 200px;
+    height: 40px;
+    
+    }
+    .writebutton:hover{
+    color: white;
+    background-color: #34a245;
+    }
+    .box4{
+    display: flex;
+    justify-content: center;
+    }
+    .box5{
+    display: flex;
+    justify-content: center;
+    }
+
+    .section-our-5{
+    width: 100%;
+    height: 800px;
+    background-color: #34a245;
+    border-bottom: 1px solid black;
+    }
+
+    .getmorep{
+    color: black;
+    font-size: 100px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    text-align: center;
+    letter-spacing: -3.5px;
+    }
+
+    .becamep{
+    font-size: 20px;
+    }
+
+    .mybutton2{
+    margin-top: 30px;
+    background-color: #34a245;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+
+    }
+    .mybutton2:hover{
+    color:black;
+    background-color: white;
+    }
+
+    .box6{
+    display: flex;
+    justify-content: center;
+    }
+
+    .our-block5{
+    margin-top: 5%;
+    background-color: black;
+    width: 100%;
+    height: .5px;
+    }
+    .section-our-6{
+    background-color: #b6e5a4;
+    border-bottom: 1px solid black;
+    }
+
+    .myh6{
+    font-size: 5.3vw;
+    line-height: 100%;
+    font-weight:400;
+    letter-spacing: -0.35vw;
+    color: #000;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+
+    }
+
+    .imgphone{
+    margin-top: 70px;
+    margin-left: 200px;
+    
+    }
+
+    .section-our-7{
+    width: 100%;
+    height: 1000px;
+    }
+    .leftborder{
+    border-left: 1px solid black;
+    border-bottom: 1px solid #000;
+    }
+
+    .myh7{
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    color: #000;
+    font-size: 5.3vw;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.35vw;
+    }
+
+    .myh8{
+    color: #000;
+    font-size: 2.7vw;
+    line-height: 100%;
+    letter-spacing: -0.12vh;
+    text-transform: none;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    margin-top: 30px;
+    }
+
+    .myvisit{
+    color:#000;
+    font-family: 'Soehne web buch', sans-serif;
+    font-size: 18px;
+    line-height: 127%;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+
+    }
+    .writebutton2{
+    font-size: 20px;
+    color: #34a245;
+    border-radius: 20px;
+    border: 1px solid green;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    
+    }
+    .writebutton2:hover{
+    color: white;
+    background-color: #34a245;
+    }
+
+    .myh9{
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    color: #000;
+    font-size: 5.3vw;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.35vw;
+    }
+    .iframe2{
+    width: 500px;
+    height: 500px;
+    }
+    .bottom-border2{
+    border-bottom: 1px solid #000;
+    }
+
+    .littleimg{
+    margin-top: 20px;
+    width: 250px;
+    height: 70px;
+    }
+
+    .thisimg{
+    display: flex;
+    justify-content: center;
+    }
+
+    .leftborder3{
+    border-left: 1px solid black;
+    }
+
+    .last li{
+    list-style: none;
+    }
+
+    .last li a{
+    text-decoration: none;
+    color: black;
+    }
+
+
+
+    
+/* membership.html css */
+
+.navbar{
+    background-color: rgb(68, 121, 255);
+    border-bottom: 1px solid white;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    border-bottom: 1px solid black; 
+    }
+
+    .nav-btn{
+        background-color: black;
+        border-radius: 3rem;
+        border: none;
+        width:auto;
+        margin-left: 1rem;
+    }
+
+    .nav-btn a{
+        text-decoration: none;
+        color: white;
+        
+    }
+
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .navbar li {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    
+    .navbar li:first-child {
+        margin-left: 0;
+    }
+    
+
+    .navbackground{
+    background-color: rgb(68, 121, 255);
+    border-bottom: 1px solid white;
+    }
+
+
+    .section-member-1{
+    width: 100%;
+    height: 430px;
+    background-color: #4479ff;
+    border-bottom: 1px solid #fff;
+
+    }
+
+    .myh10{
+    color: #fff;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    font-size: 7.3vw;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.35vw;
+    }
+
+    .member{
+    color:#fff;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    }
+
+    .writebuttonmember{
+    font-size: 20px;
+    color: black;
+    border-radius: 20px;
+    border: 1px solid #4479ff;
+    background-color: white;
+    width: 300px;
+    height: 45px;
+    justify-content: center;
+    
+    }
+    .writebuttonmember:hover{
+    color: white;
+    background-color: #4479ff;
+    border: 1px solid white;
+    transition: -4s;
+
+    }
+    .boxmember{
+    display: flex;
+    justify-content: center;
+    
+    }
+
+    .section-member-2{
+    width: 100%;
+    height: 500px;
+    background-color: #4479ff;
+    }
+
+    .myh11{
+    color: #fff;
+    line-height: 105%;
+    font-size: 2.2vw;
+    font-weight: 400;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    letter-spacing: -0.12vw;
+    margin-top: 30px;
+
+    }
+    .borderright3{
+    border-right: 1px solid #fff;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+
+    }
+    
+    .readp{
+    color: #fff;
+    line-height: 105%;
+    font-size: 2.7vw;
+    font-weight: 400;
+    letter-spacing: -0.12vw;
+    margin-top: 70px;
+    margin-bottom: 10px;
+
+    }
+    .myps{
+    color: #fff; 
+    font-size: 18px;
+    }
+
+    .myh12{
+    color: #000;
+    font-size: 2.7vw;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.12vw;
+    margin-top: 50px;
+    }
+
+    .forp{
+    color:#000;
+    font-size: 22px;
+    line-height: 110%;
+    font-family: 'Soehne web buch', sans-serif;
+    
+
+    }
+    .name{
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    line-height: 160%;
+    letter-spacing: -0.07vw;
+    margin-left: 550px;
+    font-size: 20px;
+    }
+
+    .section-member-3{
+    width: 100%;
+    height: 430px;
+    background-color: #bcdfff;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    margin-top: 40px;
+
+    }
+
+    .myh13{
+    color:#000;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    font-size: 5.3vw;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.35vw; 
+    
+    }
+
+    .boxmember-2{
+    height: 100px;  
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    font-size: 18px;
+    font-family: 'Soehne web buch', sans-serif;
+    line-height: 127%;
+    font-weight: 400;
+    align-items: center;
+    }
+    .footer .box8 ul li{
+    list-style-type: none;
+    padding-left: 20px;
+    }
+    .footer .box8 ul li a{
+    font-size: 12px;
+    color: gray;
+    }
+    .footer .box8 ul{
+
+    display: flex;
+    }
+
+
+    .navbackground{
+    background-color: #4479ff;
+    border-bottom: 1px solid #000;
+    }
+
+    .section-member-4{
+        width: 100%;
+        height: 430px;
+        background-color: #4d5d85a4;
+        border-bottom: 1px solid black;
+    }
+
+    .myh14{
+    color: #fff;
+    font-size: 11px;
+    font-family: 'Soehne web dreiviertelfett', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.35rem;
+    text-transform: uppercase;
+    margin-top: 50px;
+    } 
+
+    .boxmember-end{
+        color: #fff;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+    }
+
+    .writebuttonmember-end{
+        font-size: 20px;
+        color: #000;
+        border-radius: 20px;
+        border: 1px solid #4479ff;
+        background-color: white;
+        width: 300px;
+        height: 45px;
+        justify-content: center;
+    }
+
+    .writebuttonmember-end:hover{
+        color: white;
+        background-color: #000;
+        border: 1px solid white;
+        transition: -4s;
+    }
+
+
