@@ -852,8 +852,13 @@
 
 
 /* write css bölümü */
-.writenav{
+
+.write-navbar{
     background-color: #f24d2e;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+
 }
 .section-write-1{
     width: 100%;
@@ -861,6 +866,7 @@
     background-color: #f24d2e;
 
 }
+
 .whitep{
     margin-top: 40px;
     margin-bottom: 0px;
@@ -1047,7 +1053,8 @@
 
 
 /* modal css kısmı */
-.modalp{
+
+.kayitolmodal{
     text-align: center;
     font-size: 27px;
     font-family: 'Gt super text book', Georgia, sans-serif;
@@ -1064,7 +1071,7 @@
     display: flex;
     justify-content: center;
 }
-.appsbutton a{
+.appsdiv-button a{
     font-size: 14px;
     color: black;
     text-decoration: none;
@@ -1073,6 +1080,18 @@
     width: 20px;
     height: 20px;
     margin-right: 10px;
+}
+
+.modalin2{
+    text-align: center;
+    margin-top: 15;
+}
+
+.modalin2 a{
+    font-size: 14px;
+    background-color:whites;
+    color: #34a245;
+    text-decoration: none;
 }
 .modal-content{
     height: 120vh !important;
