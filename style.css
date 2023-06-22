@@ -852,205 +852,267 @@
 
 
 /* write css bölümü */
-
-.write-navbar{
-    background-color: #f24d2e;
-    position: sticky;
-    top: 0;
-    z-index: 9999;
-
-}
-.section-write-1{
-    width: 100%;
-    height: 610px;
-    background-color: #f24d2e;
-
-}
-
-.whitep{
-    margin-top: 40px;
-    margin-bottom: 0px;
-    font-family: 'Soehne web dreiviertelfett', sans-serif;
-    color: #fff;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.35rem;
-    text-transform: uppercase;
-}
-.bigh2{
-    color: #000;
-    font-size: 7.3vw;
-    letter-spacing: -3.2px;
-    font-family: 'Gt super text book', Georgia, sans-serif;
-    font-weight: 400;
-}
-.whitep2{
-    color: #000;
-    font-size: 18px;
-    font-family: 'Gt super text book', Georgia, sans-serif;
-}
-.startwritingbutton{
-    margin-top: 30px;
-    width: 150px;
-    height: 40px;
-    background-color: white;
-    color: black;
-    border-radius: 20px;
-    border: none;
-    font-size: 20px;
-}
-.blackborderrgiht{
-    border-right: 1px solid #000;
-}
-.section-write-2{
-    width: 100%;
-    height: 700px;
-    background-color: #000;
-}
-.bigp3{
-    color: #fff;
-    font-size: 6.5vw;
-    letter-spacing: -3.2px;
-    font-family: 'Gt super text book', Georgia, sans-serif;
-}
-.obamaimg{
-    width: 50px;
-    height: 50px;
-
-}
-.bordertop{
-    border-top: 1px solid #fff;
-}
-.dadh6{
-    margin-left: 70px;
-}
-.section-write-3{
-    width: 100%;
-    height: 680px;
-    background-color: #ffd1b9;
-    border-bottom: 1px solid #000;
-}
-.spacep{
-    color: #000;
-    font-size: 80px;
-    font-family: 'Gt super text book', Georgia, sans-serif;
-
-}
-.startofwritingbutton{
-    color: #000;
-    width: 180px;
-    height: 30px;
-}
-.boxwrite{
-    margin-top: 130px;
-}
-.section-write-3 .container-fluid{
-    border-bottom: 1px solid #000;
-}
-.blogofstartp{
-    font-family: 'Gt super text book', Georgia, sans-serif;
-    font-size: 40px;
-}
-.blogofstartpborder{
-    border-right: 1px solid #000;
-}
-.section-write-4{
-    border-bottom: 1px solid #000;
-}
-.section-write-5 .container .row .asd{
-    border-right: 1px solid #000;
-} 
-.iphonesimg{
-    width: 350px;
-    height: 340px;
-    background-position: center;
-    background-size: cover;
-}
-.audiencep{
-    font-size: 35px;
-    font-family: 'Gt super text book', Georgia, sans-serif;
-}
-.audiencesp{
-    color: #000;
-    font-size: 20px;
-}
-.borderrightsag{
-    border-right: 1px solid #000;
-}
-.dsa{
-    padding: 30px;
-}
-.section-write-6{
-    width: 100%;
-    height: 500px;
-    background-image: url(https://cdn-static-1.medium.com/sites/medium.com/creators/images/cubes.png);
-    border-top: 1px solid #000;
-    background-position: 100% 50%;
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    opacity: 1;
-    background-color: #34a245;
-}
-.bigp4{
-    color: #fff;
-    font-family: 'Gt super text book', Georgia, sans-serif;
-    padding-right: 0px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-    font-size: 6vw;
-    text-align: left;
-    letter-spacing: -3px;
-}
-.whitep3{
-    color: #fff;
-    font-size: 17px;
-}
-.section-write-7{
-    width: 100%;
-    height: 930px;
-    background-color: #000;
-}
-.bigp5{
-    padding: 20px;
-    font-family: 'Gt super text book', Georgia, sans-serif;
-    font-size: 40px;
-    color: #fff;
-}
-.accordion{
-    border-bottom: 1px solid #fff;
-}
-.accordion-item{
-    background-color: #000;
-    padding: 20px;
-}
-.accordion-button{
-    background-color: #000;
-    color: #fff;
-    font-size: 20px;
-}
-.accordion-button:not(.collapsed){
-    background-color: #000;
-    color: #fff;
-    font-size: 20px;
-}
-.accordion-collapse{
-    color: #fff;
-    font-size: 20px;
-}
-.bigp6{
-    color: #fff;
-    font-size: 26px;
-}
-.bigpsbutton{
-    width: 230px;
-    height: 40px;
-    background-color: #fff;
-    border: none;
-    border-radius: 20px;
-}
-
-
+.writeNavbar{
+    background-color: rgb(242, 77, 46) !important 
+    }
+    
+    .write .navbar{
+        background-color: rgb(242, 77, 46);
+        border-bottom: 1px solid #000;
+    }
+    
+    
+    .section-12{
+        width: 100%;
+        height: 670px;
+        background-color: rgb(242, 77, 46);
+        border-bottom: 1px solid black;
+    }
+    
+    .myh14{
+        color: #fff;
+        font-size: 11px;
+        font-family: 'Soehne web dreiviertelfett', sans-serif;
+        font-weight: 700;
+        letter-spacing: 0.35rem;
+        text-transform: uppercase;
+        margin-top: 20px;
+        padding-bottom: 0px;
+    }
+    
+    .myh15{
+        color: #000;
+        font-size: 7.3vw;
+        line-height: 100%;
+        font-weight: 400;
+        letter-spacing: -0.35vw;
+        font-family: 'Gt super text book', Georgia, sans-serif;
+        
+    }
+    
+    .storytell{
+        color: #000;
+        font-family: 'Soehne web buch', sans-serif;
+        margin-bottom: 50px;
+        padding-bottom: 10px;
+        line-height: 127%;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .nav-btn-cls{
+        cursor: pointer;
+        font-size: 22px;
+        font-family: 'Soehne web buch', sans-serif;
+        border-radius: 21px; 
+        color: black;
+        border: 1px solid red;
+        background-color: white;
+        width: 200px;
+        height: 45px;
+        
+    }
+    .nav-btn-cls:hover{
+        background-color: red;
+        border: 1px solid white;
+        transition: .5s;
+    }
+    .nav-btn-cls a{
+        text-decoration: none;
+        color: black;
+    }
+    .nav-btn-cls a:hover{
+        color: white;
+    }
+    
+    .padding{
+        border-right: 1px solid #000;
+        margin-top: 50px;
+    }
+    
+    .section-13{
+        background-color:#000;
+        width: 100%;
+        height: 630px;
+    }
+    
+    .myh16{
+        color: #fff;
+        font-family: 'Gt super text book', Georgia, sans-serif;
+        font-size: 6vw;
+        line-height: 100%;
+        font-weight: 400;
+        letter-spacing: -0.35vw;
+        margin-left: 70px;
+        
+    }
+    .obamaimg{
+        width: 50px;
+        height: 50px;
+    
+    }
+    .bordertop{
+        border-bottom: 1px solid #fff;
+    
+    }
+    
+    .section-14{
+        background-color: #ffd1b9;
+        width: 100%;
+        height: 860px;
+        padding: 30px 30px 0px;
+        border-bottom: 1px solid #000;
+    }
+    
+    .myh17{
+        font-family: 'Gt super text book', Georgia, sans-serif;
+        color: #000;
+        line-height: 100%;
+        font-weight: 400;
+        letter-spacing: -0.35vw;
+        font-size: 6vw;
+        padding-bottom: 80px;
+    
+    }
+    
+    .paytell{
+        font-family: 'Soehne web buch', sans-serif;
+        color: #000;
+        line-height: 127%;
+        font-weight: 400;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        
+    }
+    
+    .nav-btn-cls-2{
+        cursor: pointer;
+        font-size: 22px;
+        font-family: 'Soehne web buch', sans-serif;
+        border-radius: 21px; 
+        color: black;
+        border: 1px solid black;
+        background-color: black;
+        width: 200px;
+        height: 45px;
+        
+    }
+    .nav-btn-cls-2:hover{
+        background-color: black;
+        border: 1px solid white;
+        transition: .5s;
+    }
+    .nav-btn-cls-2 a{
+        text-decoration: none;
+        color: white
+    }
+    .nav-btn-cls-2 a:hover{
+        color: white;
+    }
+    
+    .myh18{
+        font-family: 'Gt super text book', Georgia, sans-serif;
+        color: #000;
+        line-height: 100%;
+        font-weight: 400;
+        font-size: 3.2vw;
+        margin-top: 20px;
+    }
+    
+    .section-16{
+        border-bottom: 1px solid #000;
+    }
+    
+    .section-16 .container .row .asd{
+        border-right: 1px solid #000;
+    } 
+    .iphonesimg{
+        width: 350px;
+        height: 340px;
+        background-position: center;
+        background-size: cover;
+    }
+    .audiencep{
+        font-size: 35px;
+        font-family: 'Gt super text book', Georgia, sans-serif;
+    }
+    .audiencesp{
+        color: #000;
+        font-size: 20px;
+    }
+    .borderrightenaugh{
+        border-right: 1px solid #000;
+    }
+    .dsa{
+        padding: 30px;
+    }
+    .section-17{
+        width: 100%;
+        height: 930px;
+        background-color: #000;
+    }
+    
+    .myh19{
+        color: #fff;
+        padding: 20px;
+        line-height: 105%;
+        font-family: 'Gt super text book', Georgia, sans-serif;
+        font-size: 2.2vw;
+        font-weight: 400;
+        letter-spacing: -0.12vw;
+    
+    }
+    
+    .accordion{
+        border-bottom: 1px solid #fff;
+    }
+    
+    .accordion-item{
+        background-color: #000;
+        padding: 20px;
+    }
+    
+    .accordion-button{
+        background-color: #000;
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    .accordion-button:not(.collapsed){
+        background-color: #000;
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    .accordion-collapse{
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    .myh20{
+        font-family: 'Soehne web buch', sans-serif;
+        font-weight: 400;
+        color: #fff;
+        
+    }
+    
+    .buttoncheck{
+        width: 230px;
+        height: 40px;
+        border-radius: 21px;
+        border-style: solid;
+        color: #000;
+        background-color: #fff;
+        border: none;
+        font-family: 'Soehne web buch', sans-serif;
+        font-size: 20px;
+        border:1px solid white;
+        
+    }
+    
+    .buttoncheck:hover{
+        background-color: #000;
+        color: white;
+    }
 
 /* modal css kısmı */
 
@@ -1112,3 +1174,114 @@
     color: gray;
     font-size: 13px;
 }
+
+/* opening css kısmı */
+.openingnav form img{ 
+    margin-right: 20px;
+}
+.profileimage{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.signinul{
+    display: flex;
+
+}
+.signinul li{
+    list-style: none;
+    padding-right: 20px;
+}
+.signinul li a{
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.851);
+}
+.staffp{
+    font-size: 18px;
+}
+.prof2p{
+    font-size: 13px;
+}
+.openbox{
+    padding: 20px;
+    width: 280px;
+    height: 200px;
+    background-color: rgb(196, 226, 255);
+    border-radius: 4px;
+}
+.signinp{
+    font-size: 15px;
+    color: #000;
+}
+.signinp2{
+    font-size: 12px;
+    color: #000;
+}
+.smallbutton{
+    width: 100px;
+    height: 30px;
+    background-color: #000;
+    color: white;
+    border-radius: 20px;
+    font-size: 13px;
+}
+.discoverp{
+    font-size: 14px;
+    text-align: center;
+}
+.connectbutton{
+    justify-content: center;
+    width: 225px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background-color: white;
+}
+.topics{
+    z-index: 9999;
+    white-space: nowrap;
+    color: rgba(41, 41, 41, 1);
+    transition: 300ms ease;
+    border: 1px solid rgba(242, 242, 242, 1);
+    border-radius: 100px;
+    background-color: rgba(242, 242, 242, 1);
+    position: relative;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 400;
+    padding: 8px 16px;
+    box-sizing: inherit;
+    text-decoration: none;
+    margin-top: 1rem;
+
+}
+
+.topics:hover{
+    background-color:white;
+    color:black;
+
+}
+.maybep a{
+    color: gray;
+}
+.maybep{
+    text-align: center;
+}
+.balloons{
+    margin: 10px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.225);
+}
+.followbutton{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: white ;
+    border-radius: 20px;
+}
+

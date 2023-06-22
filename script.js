@@ -1,5 +1,6 @@
 var body = document.getElementsByClassName('navbar')[0];
 var button = document.getElementsByClassName('nav-btn')[0];
+
 button.style.backgroundColor = 'black';
 body.style.borderBottom = 'none';
 body.style.backgroundColor = 'rgb(255,192,0)';
@@ -18,9 +19,6 @@ window.onscroll = function (event) {
     }
 }
 
-
-
-
 const elts = {
 	text1: document.getElementById("text1"),
 	text2: document.getElementById("text2")
@@ -28,13 +26,12 @@ const elts = {
 
 
 const texts = [
-	"Why",
-	"is",
-	"this",
-	"so",
-	"satisfying",
-	"to",
-	"watch?"
+	"HTML",
+	"CSS",
+	"JS",
+	"BACK-END",
+	"FRONT-END",
+	"MEDIUM"
 ];
 
 
