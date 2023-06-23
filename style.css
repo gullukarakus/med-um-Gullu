@@ -1176,7 +1176,7 @@
 }
 
 /* opening css kısmı */
-.openingnav form img{ 
+/* .openingnav form img{ 
     margin-right: 20px;
 }
 .profileimage{
@@ -1187,101 +1187,258 @@
 .signinul{
     display: flex;
 
+
 }
 .signinul li{
     list-style: none;
-    padding-right: 20px;
+    padding: 20px;
 }
 .signinul li a{
     text-decoration: none;
     color: rgba(128, 128, 128, 0.851);
-}
-.staffp{
-    font-size: 18px;
-}
-.prof2p{
-    font-size: 13px;
-}
-.openbox{
-    padding: 20px;
-    width: 280px;
-    height: 200px;
-    background-color: rgb(196, 226, 255);
-    border-radius: 4px;
-}
-.signinp{
-    font-size: 15px;
-    color: #000;
-}
-.signinp2{
-    font-size: 12px;
-    color: #000;
-}
-.smallbutton{
-    width: 100px;
-    height: 30px;
-    background-color: #000;
-    color: white;
-    border-radius: 20px;
-    font-size: 13px;
-}
-.discoverp{
-    font-size: 14px;
-    text-align: center;
-}
-.connectbutton{
-    justify-content: center;
-    width: 225px;
-    padding: 10px;
-    border: 1px solid gray;
-    border-radius: 30px;
-    background-color: white;
-}
-.topics{
-    z-index: 9999;
-    white-space: nowrap;
-    color: rgba(41, 41, 41, 1);
-    transition: 300ms ease;
-    border: 1px solid rgba(242, 242, 242, 1);
-    border-radius: 100px;
-    background-color: rgba(242, 242, 242, 1);
-    position: relative;
-    line-height: 20px;
-    font-size: 14px;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif; 
-    font-weight: 400;
-    padding: 8px 16px;
-    box-sizing: inherit;
-    text-decoration: none;
-    margin-top: 1rem;
+} */
 
-}
 
-.topics:hover{
-    background-color:white;
-    color:black;
+    .write{
+        width: 20px;
+        height: 20px;
+        
+    }
+    
+    .bell{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .gullu{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        
+    }
+    
+    .search{
+        width: 20px;
+        height: 20px;
+    
+    }
+    
+    .mediumicon{
+        width: 60px;
+        height: 50px;
+        cursor: pointer;
+        
+    }
+    
+    .signinrightt{
+        float: right;
+    }
+    
+    .sign img{
+        padding-right: 10px;
+    }
+    
+    .signul{
+        display: flex;
+    }
+    
+    .signul li{
+        list-style: none;
+        padding: 15px;
+    }
+    
+    .signul li a{
+        text-decoration: none;
+        color: gray;
+    }
+    
+    .myh23{
+        font-size: 14px;
+        font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: rgba(117, 117, 117, 1);
+        overflow: hidden;
+        cursor: pointer;
+    
+    }
+    
+    .myh24{
+        font-size: 20px;
+        color: rgba(41, 41, 41, 1);
+        font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 700;
+    }
+    
+    .myh25{
+        color: rgba(41, 41, 41, 41);
+        font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+    .imgzaron{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .signinright{
+        padding: 0px 24px;
+    }
+    
+    .signintop{
+        border-left: 1px solid rgba(242, 242, 242, 1);
+        padding-right: 24px;
+        padding-left: 24px;
+        border-bottom: 1px solid rgba(242, 242, 242, 1);
+    
+    }
+    
+    .see{
+        color: #1A8917;
+        font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+        
+    }
+    
+    .see :hover{
+        background-color: #1A8917;
+        color: #000;
+    }
+    
+    .icon-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 30px;
+    
+    }
+    
+    .twitter2{
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 99em;
+        border-color: rgb(168, 168, 168);
+        width: 212px;
+        background: rgb(255, 255, 255);
+        padding: 6px 12px 8px 16px;
+        font-size: 14px;
+        color: rgba(41, 41, 41, 1);
+        font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        
+    }
+    
+    .twitterbutton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .maybe{
+        text-decoration: underline;
+        font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: rgba(117, 117, 117, 1);
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    
+    .myh26{
+        font-size: 16px;
+        color: rgba(41, 41, 41, 1);
+        font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    
+    .twitterprofile{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+    }
+    
+    .myh27{
+        font-size: 16px;
+        color: rgba(41, 41, 41, 1);
+        font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    
+    .thisis{
+        overflow: hidden;
+        margin-top: 4px;
+        font-size: 13px;
+        color: rgba(117, 117, 117, 1);
+        font-weight: 400;
+        font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        cursor: pointer;
+    }
+    
+    .follow{
+        width: 65px;
+        height: 31px;
+        font-size: 14px;
+        border-style: solid;
+        border-radius: 99em;
+        border-width: 1px;
+        padding: 5px 12px;
+        border-color: rgb(117, 117, 117);
+        background-color: white
+    }
+    
+    .buttondeneme{
+        background-color: white;
+        transition: background-color 0.3 ease;
+        padding: 10px;
+        color: green;
+    
+    }
+    
+    .buttondeneme:hover{
+        color: black;
+        cursor: pointer;
+    }
+    
+    .signinmid{
+    
+        
+        position:-webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        background-color:white;
+        transition: background-color 0.3 ease;
+        padding:10px;
+        }
+    
+        
+        .signinmid a{
+        z-index: 9999;
+        white-space: nowrap;
+        background-color: rgba( 242,242,242,1);
+        color: rgba(41,41,41,1);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: 300ms ease;
+        border: 1px solid rgba(242,242,242,1);
+        position: relative;
+        border-radius: 100px;
+        padding: 8px 16px;
+        box-sizing: inherit;
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-flex;
+        
+        }
+        
+    
+        
 
-}
-.maybep a{
-    color: gray;
-}
-.maybep{
-    text-align: center;
-}
-.balloons{
-    margin: 10px;
-    width: auto;
-    height: auto;
-    padding: 10px;
-    border: none;
-    border-radius: 20px;
-    background-color: rgba(128, 128, 128, 0.225);
-}
-.followbutton{
-    width: 100px;
-    height: 30px;
-    border: 1px solid black;
-    background-color: white ;
-    border-radius: 20px;
-}
 
